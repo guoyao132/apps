@@ -11,7 +11,7 @@ let appsFun = {
       //     filename: 'index.html',
       //   }
       // },
-      publicPath: proType ? '/' + proType + '/' : './',
+      publicPath: './',
       // publicPath: '/app1/',
       outputDir: (proType && (proType != 'all')) ? './' + (process.env.outputDir || 'dict') + '/' + proType : './' + (process.env.outputDir || 'dict') ,
       port: (proType && (proType != 'all')) ? appsConfig[proType].port : 8000
